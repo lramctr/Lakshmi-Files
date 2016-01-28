@@ -1,0 +1,23 @@
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\PivotServer\bin\PivotServer.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\PivotServer\bin\PivotServer.pdb
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\PivotServer\bin\CollectionFactories.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\PivotServer\bin\PivotServerTools.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\PivotServer\bin\CollectionFactories.pdb
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\PivotServer\bin\PivotServerTools.pdb
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\PivotServer\obj\Debug\PivotServer.csprojResolveAssemblyReference.cache
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\PivotServer\obj\Debug\PivotServer.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\PivotServer\obj\Debug\PivotServer.pdb
+D:\Programming\Visual Studio 2015\Projects\NpsGis\PivotServer\bin\PivotServer.dll.config
+D:\Programming\Visual Studio 2015\Projects\NpsGis\PivotServer\bin\PivotServer.dll
+D:\Programming\Visual Studio 2015\Projects\NpsGis\PivotServer\bin\PivotServer.pdb
+D:\Programming\Visual Studio 2015\Projects\NpsGis\PivotServer\bin\PivotServerTools.dll
+D:\Programming\Visual Studio 2015\Projects\NpsGis\PivotServer\bin\PivotServerTools.pdb
+D:\Programming\Visual Studio 2015\Projects\NpsGis\PivotServer\obj\Debug\PivotServer.csprojResolveAssemblyReference.cache
+D:\Programming\Visual Studio 2015\Projects\NpsGis\PivotServer\obj\Debug\PivotServer.dll
+D:\Programming\Visual Studio 2015\Projects\NpsGis\PivotServer\obj\Debug\PivotServer.pdb
+D:\Programming\Visual Studio 2015\Projects\NpsGis\PivotServer\bin\CdsDataModels.dll
+D:\Programming\Visual Studio 2015\Projects\NpsGis\PivotServer\bin\EntityFramework.dll
+D:\Programming\Visual Studio 2015\Projects\NpsGis\PivotServer\bin\CdsDataModels.pdb
+D:\Programming\Visual Studio 2015\Projects\NpsGis\PivotServer\bin\EntityFramework.xml
+D:\Programming\Visual Studio 2015\Projects\NpsGis\PivotServer\bin\EntityFramework.SqlServer.dll
+D:\Programming\Visual Studio 2015\Projects\NpsGis\PivotServer\bin\EntityFramework.SqlServer.xml

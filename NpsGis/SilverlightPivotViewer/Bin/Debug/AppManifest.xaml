@@ -1,0 +1,10 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="SilverlightPivotViewer" EntryPointType="SilverlightPivotViewer.App" RuntimeVersion="5.0.61118.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="SilverlightPivotViewer" Source="SilverlightPivotViewer.dll" />
+    <AssemblyPart x:Name="System.Windows.Pivot" Source="System.Windows.Pivot.dll" />
+    <AssemblyPart x:Name="System.Windows.Pivot.Model" Source="System.Windows.Pivot.Model.dll" />
+    <AssemblyPart x:Name="System.Windows.Pivot.SharedUI" Source="System.Windows.Pivot.SharedUI.dll" />
+    <AssemblyPart x:Name="System.Windows.Pivot.Utilities" Source="System.Windows.Pivot.Utilities.dll" />
+    <AssemblyPart x:Name="System.Windows.Pivot.StringResources" Source="System.Windows.Pivot.StringResources.dll" />
+  </Deployment.Parts>
+</Deployment>

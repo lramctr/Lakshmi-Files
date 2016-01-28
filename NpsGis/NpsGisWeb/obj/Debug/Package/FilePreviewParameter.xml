@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Default Web Site/NpsGis" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Programming\\Visual\ Studio\ 2015\\Projects\\NpsGis\\NpsGisWeb\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Programming\\Visual\ Studio\ 2015\\Projects\\NpsGis\\NpsGisWeb\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Add write permission to App_Data Folder" description="Add write permission to App_Data folder" value="Default Web Site/NpsGis/App_Data" tags="Hidden">
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Programming\\Visual\ Studio\ 2015\\Projects\\NpsGis\\NpsGisWeb\\obj\\Debug\\Package\\PackageTmp\\App_Data$" />
+  </parameter>
+  <parameter name="NpsCdsContext-Web.config Connection String" description="" value="data source=Fhfl15vmgisweb;initial catalog=NPS_CDS;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\Programming\\Visual\ Studio\ 2015\\Projects\\NpsGis\\NpsGisWeb\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='NpsCdsContext']/@connectionString" />
+  </parameter>
+</parameters>

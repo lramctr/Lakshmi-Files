@@ -1,0 +1,22 @@
+﻿
+.PivotFactories {
+}
+
+.PivotFactory {
+    margin-bottom: 1em;
+    font-family: "Times New Roman";
+}
+
+.PivotFactoryName {
+    font-family: "Arial";
+    font-weight: bold;
+}
+
+.PivotFactorySummary {
+}
+
+.PivotFactorySampleQueries {
+}
+
+.PivotFactorySampleQuery {
+}

@@ -1,0 +1,105 @@
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\SilverlightPivotViewer.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\SilverlightPivotViewer.pdb
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\AppManifest.xaml
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\SilverlightPivotViewer.xap
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\SilverlightPivotViewerTestPage.html
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\System.Windows.Pivot.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\System.Windows.Pivot.Model.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\System.Windows.Pivot.SharedUI.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\System.Windows.Pivot.Utilities.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\System.Windows.Controls.Toolkit.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\System.Windows.Pivot.StringResources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\System.Xml.Linq.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\System.Xml.Serialization.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\System.Windows.Controls.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\System.Windows.Controls.Toolkit.Internals.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\System.Windows.Controls.Layout.Toolkit.pdb
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\System.Windows.Controls.Layout.Toolkit.xml
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\System.Windows.Controls.Toolkit.pdb
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\System.Windows.Controls.Toolkit.xml
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\System.Xml.Linq.xml
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\System.Xml.Serialization.xml
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\System.Windows.Controls.xml
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\de\System.Xml.Linq.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\es\System.Xml.Linq.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\fr\System.Xml.Linq.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\it\System.Xml.Linq.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\ja\System.Xml.Linq.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\ko\System.Xml.Linq.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\ru\System.Xml.Linq.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\de\System.Xml.Serialization.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\es\System.Xml.Serialization.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\fr\System.Xml.Serialization.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\it\System.Xml.Serialization.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\ja\System.Xml.Serialization.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\ko\System.Xml.Serialization.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\ru\System.Xml.Serialization.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\zh-Hans\System.Xml.Serialization.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\zh-Hant\System.Xml.Serialization.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\obj\Debug\SilverlightPivotViewer.csprojResolveAssemblyReference.cache
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\obj\Debug\App.g.i.cs
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\obj\Debug\MainPage.g.i.cs
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\obj\Debug\SilverlightPivotViewer.g.resources
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\obj\Debug\SilverlightPivotViewer.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\obj\Debug\SilverlightPivotViewer.pdb
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\SilverlightPivotViewer\obj\Debug\XapCacheFile.xml
+D:\Programming\Visual Studio 2015\Projects\NpsGis\SilverlightPivotViewer\Bin\Debug\SilverlightPivotViewer.dll
+D:\Programming\Visual Studio 2015\Projects\NpsGis\SilverlightPivotViewer\Bin\Debug\SilverlightPivotViewer.pdb
+D:\Programming\Visual Studio 2015\Projects\NpsGis\SilverlightPivotViewer\Bin\Debug\AppManifest.xaml
+D:\Programming\Visual Studio 2015\Projects\NpsGis\SilverlightPivotViewer\Bin\Debug\SilverlightPivotViewer.xap
+D:\Programming\Visual Studio 2015\Projects\NpsGis\SilverlightPivotViewer\Bin\Debug\SilverlightPivotViewerTestPage.html
+D:\Programming\Visual Studio 2015\Projects\NpsGis\SilverlightPivotViewer\Bin\Debug\System.Windows.Pivot.dll
+D:\Programming\Visual Studio 2015\Projects\NpsGis\SilverlightPivotViewer\Bin\Debug\System.Windows.Pivot.Model.dll
+D:\Programming\Visual Studio 2015\Projects\NpsGis\SilverlightPivotViewer\Bin\Debug\System.Windows.Pivot.SharedUI.dll
+D:\Programming\Visual Studio 2015\Projects\NpsGis\SilverlightPivotViewer\Bin\Debug\System.Windows.Pivot.Utilities.dll
+D:\Programming\Visual Studio 2015\Projects\NpsGis\SilverlightPivotViewer\Bin\Debug\System.Windows.Pivot.StringResources.dll
+D:\Programming\Visual Studio 2015\Projects\NpsGis\SilverlightPivotViewer\obj\Debug\SilverlightPivotViewer.csprojResolveAssemblyReference.cache
+D:\Programming\Visual Studio 2015\Projects\NpsGis\SilverlightPivotViewer\obj\Debug\App.g.cs
+D:\Programming\Visual Studio 2015\Projects\NpsGis\SilverlightPivotViewer\obj\Debug\MainPage.g.cs
+D:\Programming\Visual Studio 2015\Projects\NpsGis\SilverlightPivotViewer\obj\Debug\SilverlightPivotViewer.g.resources
+D:\Programming\Visual Studio 2015\Projects\NpsGis\SilverlightPivotViewer\obj\Debug\SilverlightPivotViewer.dll
+D:\Programming\Visual Studio 2015\Projects\NpsGis\SilverlightPivotViewer\obj\Debug\SilverlightPivotViewer.pdb
+D:\Programming\Visual Studio 2015\Projects\NpsGis\SilverlightPivotViewer\obj\Debug\XapCacheFile.xml

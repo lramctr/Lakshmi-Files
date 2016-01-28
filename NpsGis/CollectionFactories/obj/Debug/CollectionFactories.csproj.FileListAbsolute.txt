@@ -1,0 +1,22 @@
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\CollectionFactories\bin\Debug\CollectionFactories.dll.config
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\CollectionFactories\bin\Debug\CollectionFactories.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\CollectionFactories\bin\Debug\CollectionFactories.pdb
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\CollectionFactories\bin\Debug\PivotServerTools.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\CollectionFactories\bin\Debug\PivotServerTools.pdb
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\CollectionFactories\obj\Debug\CollectionFactories.csprojResolveAssemblyReference.cache
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\CollectionFactories\obj\Debug\CollectionFactories.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\CollectionFactories\obj\Debug\CollectionFactories.pdb
+D:\Programming\Visual Studio 2015\Projects\NpsGis\CollectionFactories\bin\Debug\CollectionFactories.dll.config
+D:\Programming\Visual Studio 2015\Projects\NpsGis\CollectionFactories\bin\Debug\CollectionFactories.dll
+D:\Programming\Visual Studio 2015\Projects\NpsGis\CollectionFactories\bin\Debug\CollectionFactories.pdb
+D:\Programming\Visual Studio 2015\Projects\NpsGis\CollectionFactories\bin\Debug\PivotServerTools.dll
+D:\Programming\Visual Studio 2015\Projects\NpsGis\CollectionFactories\bin\Debug\PivotServerTools.pdb
+D:\Programming\Visual Studio 2015\Projects\NpsGis\CollectionFactories\obj\Debug\CollectionFactories.csprojResolveAssemblyReference.cache
+D:\Programming\Visual Studio 2015\Projects\NpsGis\CollectionFactories\obj\Debug\CollectionFactories.dll
+D:\Programming\Visual Studio 2015\Projects\NpsGis\CollectionFactories\obj\Debug\CollectionFactories.pdb
+D:\Programming\Visual Studio 2015\Projects\NpsGis\CollectionFactories\bin\Debug\CdsDataModels.dll
+D:\Programming\Visual Studio 2015\Projects\NpsGis\CollectionFactories\bin\Debug\EntityFramework.dll
+D:\Programming\Visual Studio 2015\Projects\NpsGis\CollectionFactories\bin\Debug\EntityFramework.SqlServer.dll
+D:\Programming\Visual Studio 2015\Projects\NpsGis\CollectionFactories\bin\Debug\CdsDataModels.pdb
+D:\Programming\Visual Studio 2015\Projects\NpsGis\CollectionFactories\bin\Debug\EntityFramework.xml
+D:\Programming\Visual Studio 2015\Projects\NpsGis\CollectionFactories\bin\Debug\EntityFramework.SqlServer.xml

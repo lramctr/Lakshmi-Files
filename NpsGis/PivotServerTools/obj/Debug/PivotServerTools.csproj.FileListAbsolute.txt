@@ -1,0 +1,10 @@
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\PivotServerTools\bin\Debug\PivotServerTools.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\PivotServerTools\bin\Debug\PivotServerTools.pdb
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\PivotServerTools\obj\Debug\PivotServerTools.dll
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\PivotServerTools\obj\Debug\PivotServerTools.pdb
+C:\Users\amritpal.kang.ctr\Programming\PivotViewer\Pivot_JIT_Sample\PivotJitServer\PivotServerTools\obj\Debug\PivotServerTools.csprojResolveAssemblyReference.cache
+D:\Programming\Visual Studio 2015\Projects\NpsGis\PivotServerTools\bin\Debug\PivotServerTools.dll
+D:\Programming\Visual Studio 2015\Projects\NpsGis\PivotServerTools\bin\Debug\PivotServerTools.pdb
+D:\Programming\Visual Studio 2015\Projects\NpsGis\PivotServerTools\obj\Debug\PivotServerTools.csprojResolveAssemblyReference.cache
+D:\Programming\Visual Studio 2015\Projects\NpsGis\PivotServerTools\obj\Debug\PivotServerTools.dll
+D:\Programming\Visual Studio 2015\Projects\NpsGis\PivotServerTools\obj\Debug\PivotServerTools.pdb

@@ -1,0 +1,21 @@
+======================================================
+
+Silverlight PivotViewer control Redistributables 1.0
+
+====================================================== 
+
+
+You have non-exclusive royalty-free rights to redistribute the following Silverlight Pivot DLLs:
+
+
+System.Windows.Pivot.Utilities
+
+System.Windows.Pivot.Model
+
+System.Windows.Pivot.SharedUI
+
+System.Windows.Pivot.StringResources
+
+System.Windows.Pivot
+
+

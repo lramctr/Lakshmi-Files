@@ -1,0 +1,1136 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NpsGisWeb</name>
+    </assembly>
+    <members>
+        <member name="T:Nps.Gis.Web.BundleConfig">
+            <summary>
+            Bundle Configuration for styles and scripts
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.BundleConfig.RegisterBundles(System.Web.Optimization.BundleCollection)">
+            <summary>
+            Register Bundles
+            For more information on bundling, visit http://go.microsoft.com/fwlink/?LinkId=301862
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.FilterConfig">
+            <summary>
+            Filter Configuration
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.FilterConfig.RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)">
+            <summary>
+            Register Global Filters
+            </summary>
+            <param name="filters">Global Filter Collection</param>
+        </member>
+        <member name="T:Nps.Gis.Web.RouteConfig">
+            <summary>
+            Route Configuration
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.RouteConfig.RegisterRoutes(System.Web.Routing.RouteCollection)">
+            <summary>
+            Register Routes
+            </summary>
+            <param name="routes">Route Collection</param>
+        </member>
+        <member name="T:Nps.Gis.Web.WebApiConfig">
+            <summary>
+             Web API Configuration
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.WebApiConfig.Register(System.Web.Http.HttpConfiguration)">
+            <summary>
+             Register
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.ApiDescriptionExtensions">
+            <summary>
+            API Description Extensions
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.ApiDescriptionExtensions.GetFriendlyId(System.Web.Http.Description.ApiDescription)">
+            <summary>
+            Generates an URI-friendly ID for the <see cref="T:System.Web.Http.Description.ApiDescription"/>. E.g. "Get-Values-id_name" instead of "GetValues/{id}?name={name}"
+            </summary>
+            <param name="description">The <see cref="T:System.Web.Http.Description.ApiDescription"/>.</param>
+            <returns>The ID as a string.</returns>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.HelpPageConfig">
+            <summary>
+            Use this class to customize the Help Page.
+            For example you can set a custom <see cref="T:System.Web.Http.Description.IDocumentationProvider"/> to supply the documentation
+            or you can provide the samples for the requests/responses.
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageConfig.Register(System.Web.Http.HttpConfiguration)">
+            <summary>
+            Register Help page Configuration
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.Controllers.HelpController">
+            <summary>
+            The controller that will handle requests for the help page.
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.Controllers.HelpController.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.Controllers.HelpController.#ctor(System.Web.Http.HttpConfiguration)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.Controllers.HelpController.Configuration">
+            <summary>
+            Configuration
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.Controllers.HelpController.Index">
+            <summary>
+            Index view
+            </summary>
+            <returns>View</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.Controllers.HelpController.Api(System.String)">
+            <summary>
+            API View
+            </summary>
+            <param name="apiId">API Id</param>
+            <returns>View</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.Controllers.HelpController.ResourceModel(System.String)">
+            <summary>
+            Resource Model View
+            </summary>
+            <param name="modelName">Model Name</param>
+            <returns>View</returns>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.HelpPageAreaRegistration">
+            <summary>
+            Help Page Area Registration
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.HelpPageAreaRegistration.AreaName">
+            <summary>
+            Area Name
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageAreaRegistration.RegisterArea(System.Web.Mvc.AreaRegistrationContext)">
+            <summary>
+            Register Area
+            </summary>
+            <param name="context">Area Registration Context</param>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.HelpPageConfigurationExtensions">
+            <summary>
+            Help Page Configuration Extensions
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageConfigurationExtensions.SetDocumentationProvider(System.Web.Http.HttpConfiguration,System.Web.Http.Description.IDocumentationProvider)">
+            <summary>
+            Sets the documentation provider for help page.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="documentationProvider">The documentation provider.</param>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleObjects(System.Web.Http.HttpConfiguration,System.Collections.Generic.IDictionary{System.Type,System.Object})">
+            <summary>
+            Sets the objects that will be used by the formatters to produce sample requests/responses.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sampleObjects">The sample objects.</param>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleRequest(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue,System.String,System.String)">
+            <summary>
+            Sets the sample request directly for the specified media type and action.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sample">The sample request.</param>
+            <param name="mediaType">The media type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleRequest(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue,System.String,System.String,System.String[])">
+            <summary>
+            Sets the sample request directly for the specified media type and action with parameters.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sample">The sample request.</param>
+            <param name="mediaType">The media type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleResponse(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue,System.String,System.String)">
+            <summary>
+            Sets the sample request directly for the specified media type of the action.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sample">The sample response.</param>
+            <param name="mediaType">The media type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleResponse(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue,System.String,System.String,System.String[])">
+            <summary>
+            Sets the sample response directly for the specified media type of the action with specific parameters.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sample">The sample response.</param>
+            <param name="mediaType">The media type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleForMediaType(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue)">
+            <summary>
+            Sets the sample directly for all actions with the specified media type.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sample">The sample.</param>
+            <param name="mediaType">The media type.</param>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleForType(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue,System.Type)">
+            <summary>
+            Sets the sample directly for all actions with the specified type and media type.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sample">The sample.</param>
+            <param name="mediaType">The media type.</param>
+            <param name="type">The parameter type or return type of an action.</param>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageConfigurationExtensions.SetActualRequestType(System.Web.Http.HttpConfiguration,System.Type,System.String,System.String)">
+            <summary>
+            Specifies the actual type of <see cref="T:System.Net.Http.ObjectContent`1"/> passed to the <see cref="T:System.Net.Http.HttpRequestMessage"/> in an action.
+            The help page will use this information to produce more accurate request samples.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="type">The type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageConfigurationExtensions.SetActualRequestType(System.Web.Http.HttpConfiguration,System.Type,System.String,System.String,System.String[])">
+            <summary>
+            Specifies the actual type of <see cref="T:System.Net.Http.ObjectContent`1"/> passed to the <see cref="T:System.Net.Http.HttpRequestMessage"/> in an action.
+            The help page will use this information to produce more accurate request samples.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="type">The type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageConfigurationExtensions.SetActualResponseType(System.Web.Http.HttpConfiguration,System.Type,System.String,System.String)">
+            <summary>
+            Specifies the actual type of <see cref="T:System.Net.Http.ObjectContent`1"/> returned as part of the <see cref="T:System.Net.Http.HttpRequestMessage"/> in an action.
+            The help page will use this information to produce more accurate response samples.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="type">The type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageConfigurationExtensions.SetActualResponseType(System.Web.Http.HttpConfiguration,System.Type,System.String,System.String,System.String[])">
+            <summary>
+            Specifies the actual type of <see cref="T:System.Net.Http.ObjectContent`1"/> returned as part of the <see cref="T:System.Net.Http.HttpRequestMessage"/> in an action.
+            The help page will use this information to produce more accurate response samples.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="type">The type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageConfigurationExtensions.GetHelpPageSampleGenerator(System.Web.Http.HttpConfiguration)">
+            <summary>
+            Gets the help page sample generator.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <returns>The help page sample generator.</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageConfigurationExtensions.SetHelpPageSampleGenerator(System.Web.Http.HttpConfiguration,Nps.Gis.Web.Areas.HelpPage.HelpPageSampleGenerator)">
+            <summary>
+            Sets the help page sample generator.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sampleGenerator">The help page sample generator.</param>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageConfigurationExtensions.GetModelDescriptionGenerator(System.Web.Http.HttpConfiguration)">
+            <summary>
+            Gets the model description generator.
+            </summary>
+            <param name="config">The configuration.</param>
+            <returns>The <see cref="T:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator"/></returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageConfigurationExtensions.GetHelpPageApiModel(System.Web.Http.HttpConfiguration,System.String)">
+            <summary>
+            Gets the model that represents an API displayed on the help page. The model is initialized on the first call and cached for subsequent calls.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="apiDescriptionId">The <see cref="T:System.Web.Http.Description.ApiDescription"/> ID.</param>
+            <returns>
+            An <see cref="T:Nps.Gis.Web.Areas.HelpPage.Models.HelpPageApiModel"/>
+            </returns>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.CollectionModelDescription">
+            <summary>
+            Collection Model Description
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.CollectionModelDescription.ElementDescription">
+            <summary>
+            Element Description
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ComplexTypeModelDescription">
+            <summary>
+            Complex Type Model Description
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ComplexTypeModelDescription.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ComplexTypeModelDescription.Properties">
+            <summary>
+            Collection of Parameter Description
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.DictionaryModelDescription">
+            <summary>
+            Dictionary Model Description
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.EnumTypeModelDescription">
+            <summary>
+            Enumeration Type Model Description
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.EnumTypeModelDescription.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.EnumTypeModelDescription.Values">
+            <summary>
+            Collection of Enumeration Value Description
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.EnumValueDescription">
+            <summary>
+            Enumeration Value Description
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.EnumValueDescription.Documentation">
+            <summary>
+            Documentation
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.EnumValueDescription.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.EnumValueDescription.Value">
+            <summary>
+            Value
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider">
+            <summary>
+            IModel Documentation Provider
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider.GetDocumentation(System.Reflection.MemberInfo)">
+            <summary>
+            Get Documentation
+            </summary>
+            <returns>Documentation</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider.GetDocumentation(System.Type)">
+            <summary>
+            Get Documentation
+            </summary>
+            <returns>Documentation</returns>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription">
+            <summary>
+            Key Value Pair Model Description
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription.KeyModelDescription">
+            <summary>
+            Key Model Description
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription.ValueModelDescription">
+            <summary>
+            Value Model Description
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ModelDescription">
+            <summary>
+            Describes a type model.
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ModelDescription.Documentation">
+            <summary>
+            Documentation
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ModelDescription.ModelType">
+            <summary>
+            Model Type
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ModelDescription.Name">
+            <summary>
+            Model Name
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator">
+            <summary>
+            Generates model descriptions for given types.
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator.#ctor(System.Web.Http.HttpConfiguration)">
+            <summary>
+            Model Description Generator
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator.GeneratedModels">
+            <summary>
+            Generated Models
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator.GetOrCreateModelDescription(System.Type)">
+            <summary>
+            Gets or creates Model Description
+            </summary>
+            <param name="modelType">Type</param>
+            <returns>Model Description</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator.GetMemberName(System.Reflection.MemberInfo,System.Boolean)">
+            <summary>
+            Get Member Name
+            Change this to provide different name for the member.
+            </summary>
+            <returns>Member Name</returns>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ModelNameAttribute">
+            <summary>
+            Use this attribute to change the name of the <see cref="T:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ModelDescription"/> generated for a type.
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ModelNameAttribute.#ctor(System.String)">
+            <summary>
+            Model Name Attribute
+            </summary>
+            <param name="name">Name</param>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ModelNameAttribute.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ParameterAnnotation">
+            <summary>
+            Parameter Annotation
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ParameterAnnotation.AnnotationAttribute">
+            <summary>
+            Annotation Attribute
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ParameterAnnotation.Documentation">
+            <summary>
+            Documentation
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ParameterDescription">
+            <summary>
+            Parameter Description
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ParameterDescription.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ParameterDescription.Annotations">
+            <summary>
+            Annotations
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ParameterDescription.Documentation">
+            <summary>
+            Documentation
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ParameterDescription.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ParameterDescription.TypeDescription">
+            <summary>
+            Type Description
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.SimpleTypeModelDescription">
+            <summary>
+            Simple Type Model Description
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.Models.HelpPageApiModel">
+            <summary>
+            The model that represents an API displayed on the help page.
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.Models.HelpPageApiModel.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Nps.Gis.Web.Areas.HelpPage.Models.HelpPageApiModel"/> class.
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.Models.HelpPageApiModel.ApiDescription">
+            <summary>
+            Gets or sets the <see cref="P:Nps.Gis.Web.Areas.HelpPage.Models.HelpPageApiModel.ApiDescription"/> that describes the API.
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.Models.HelpPageApiModel.UriParameters">
+            <summary>
+            Gets or sets the <see cref="T:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ParameterDescription"/> collection that describes the URI parameters for the API.
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.Models.HelpPageApiModel.RequestDocumentation">
+            <summary>
+            Gets or sets the documentation for the request.
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.Models.HelpPageApiModel.RequestModelDescription">
+            <summary>
+            Gets or sets the <see cref="T:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ModelDescription"/> that describes the request body.
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.Models.HelpPageApiModel.RequestBodyParameters">
+            <summary>
+            Gets the request body parameter descriptions.
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.Models.HelpPageApiModel.ResourceDescription">
+            <summary>
+            Gets or sets the <see cref="T:Nps.Gis.Web.Areas.HelpPage.ModelDescriptions.ModelDescription"/> that describes the resource.
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.Models.HelpPageApiModel.ResourceProperties">
+            <summary>
+            Gets the resource property descriptions.
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.Models.HelpPageApiModel.SampleRequests">
+            <summary>
+            Gets the sample requests associated with the API.
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.Models.HelpPageApiModel.SampleResponses">
+            <summary>
+            Gets the sample responses associated with the API.
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.Models.HelpPageApiModel.ErrorMessages">
+            <summary>
+            Gets the error messages associated with this model.
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleGenerator">
+            <summary>
+            This class will generate the samples for the help page.
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleGenerator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleGenerator"/> class.
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleGenerator.ActualHttpMessageTypes">
+            <summary>
+            Gets CLR types that are used as the content of <see cref="T:System.Net.Http.HttpRequestMessage"/> or <see cref="T:System.Net.Http.HttpResponseMessage"/>.
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleGenerator.ActionSamples">
+            <summary>
+            Gets the objects that are used directly as samples for certain actions.
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleGenerator.SampleObjects">
+            <summary>
+            Gets the objects that are serialized as samples by the supported formatters.
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleGenerator.SampleObjectFactories">
+            <summary>
+            Gets factories for the objects that the supported formatters will serialize as samples. Processed in order,
+            stopping when the factory successfully returns a non-<see langref="null"/> object.
+            </summary>
+            <remarks>
+            Collection includes just <see cref="M:Nps.Gis.Web.Areas.HelpPage.ObjectGenerator.GenerateObject(System.Type)"/> initially. Use
+            <code>SampleObjectFactories.Insert(0, func)</code> to provide an override and
+            <code>SampleObjectFactories.Add(func)</code> to provide a fallback.</remarks>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleGenerator.GetSampleRequests(System.Web.Http.Description.ApiDescription)">
+            <summary>
+            Gets the request body samples for a given <see cref="T:System.Web.Http.Description.ApiDescription"/>.
+            </summary>
+            <param name="api">The <see cref="T:System.Web.Http.Description.ApiDescription"/>.</param>
+            <returns>The samples keyed by media type.</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleGenerator.GetSampleResponses(System.Web.Http.Description.ApiDescription)">
+            <summary>
+            Gets the response body samples for a given <see cref="T:System.Web.Http.Description.ApiDescription"/>.
+            </summary>
+            <param name="api">The <see cref="T:System.Web.Http.Description.ApiDescription"/>.</param>
+            <returns>The samples keyed by media type.</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleGenerator.GetSample(System.Web.Http.Description.ApiDescription,Nps.Gis.Web.Areas.HelpPage.SampleDirection)">
+            <summary>
+            Gets the request or response body samples.
+            </summary>
+            <param name="api">The <see cref="T:System.Web.Http.Description.ApiDescription"/>.</param>
+            <param name="sampleDirection">The value indicating whether the sample is for a request or for a response.</param>
+            <returns>The samples keyed by media type.</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleGenerator.GetActionSample(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Type,System.Net.Http.Formatting.MediaTypeFormatter,System.Net.Http.Headers.MediaTypeHeaderValue,Nps.Gis.Web.Areas.HelpPage.SampleDirection)">
+            <summary>
+            Search for samples that are provided directly through <see cref="P:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleGenerator.ActionSamples"/>.
+            </summary>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+            <param name="type">The CLR type.</param>
+            <param name="formatter">The formatter.</param>
+            <param name="mediaType">The media type.</param>
+            <param name="sampleDirection">The value indicating whether the sample is for a request or for a response.</param>
+            <returns>The sample that matches the parameters.</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleGenerator.GetSampleObject(System.Type)">
+            <summary>
+            Gets the sample object that will be serialized by the formatters. 
+            First, it will look at the <see cref="P:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleGenerator.SampleObjects"/>. If no sample object is found, it will try to create
+            one using <see cref="M:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleGenerator.DefaultSampleObjectFactory(Nps.Gis.Web.Areas.HelpPage.HelpPageSampleGenerator,System.Type)"/> (which wraps an <see cref="T:Nps.Gis.Web.Areas.HelpPage.ObjectGenerator"/>) and other
+            factories in <see cref="P:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleGenerator.SampleObjectFactories"/>.
+            </summary>
+            <param name="type">The type.</param>
+            <returns>The sample object.</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleGenerator.ResolveHttpRequestMessageType(System.Web.Http.Description.ApiDescription)">
+            <summary>
+            Resolves the actual type of <see cref="T:System.Net.Http.ObjectContent`1"/> passed to the <see cref="T:System.Net.Http.HttpRequestMessage"/> in an action.
+            </summary>
+            <param name="api">The <see cref="T:System.Web.Http.Description.ApiDescription"/>.</param>
+            <returns>The type.</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleGenerator.ResolveType(System.Web.Http.Description.ApiDescription,System.String,System.String,System.Collections.Generic.IEnumerable{System.String},Nps.Gis.Web.Areas.HelpPage.SampleDirection,System.Collections.ObjectModel.Collection{System.Net.Http.Formatting.MediaTypeFormatter}@)">
+            <summary>
+            Resolves the type of the action parameter or return value when <see cref="T:System.Net.Http.HttpRequestMessage"/> or <see cref="T:System.Net.Http.HttpResponseMessage"/> is used.
+            </summary>
+            <param name="api">The <see cref="T:System.Web.Http.Description.ApiDescription"/>.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+            <param name="sampleDirection">The value indicating whether the sample is for a request or a response.</param>
+            <param name="formatters">The formatters.</param>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleGenerator.WriteSampleObjectUsingFormatter(System.Net.Http.Formatting.MediaTypeFormatter,System.Object,System.Type,System.Net.Http.Headers.MediaTypeHeaderValue)">
+            <summary>
+            Writes the sample object using formatter.
+            </summary>
+            <param name="formatter">The formatter.</param>
+            <param name="value">The value.</param>
+            <param name="type">The type.</param>
+            <param name="mediaType">Type of the media.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleKey">
+            <summary>
+            This is used to identify the place where the sample should be applied.
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleKey.#ctor(System.Net.Http.Headers.MediaTypeHeaderValue)">
+            <summary>
+            Creates a new <see cref="T:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleKey"/> based on media type.
+            </summary>
+            <param name="mediaType">The media type.</param>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleKey.#ctor(System.Net.Http.Headers.MediaTypeHeaderValue,System.Type)">
+            <summary>
+            Creates a new <see cref="T:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleKey"/> based on media type and CLR type.
+            </summary>
+            <param name="mediaType">The media type.</param>
+            <param name="type">The CLR type.</param>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleKey.#ctor(Nps.Gis.Web.Areas.HelpPage.SampleDirection,System.String,System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Creates a new <see cref="T:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleKey"/> based on <see cref="P:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleKey.SampleDirection"/>, controller name, action name and parameter names.
+            </summary>
+            <param name="sampleDirection">The <see cref="P:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleKey.SampleDirection"/>.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleKey.#ctor(System.Net.Http.Headers.MediaTypeHeaderValue,Nps.Gis.Web.Areas.HelpPage.SampleDirection,System.String,System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Creates a new <see cref="T:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleKey"/> based on media type, <see cref="P:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleKey.SampleDirection"/>, controller name, action name and parameter names.
+            </summary>
+            <param name="mediaType">The media type.</param>
+            <param name="sampleDirection">The <see cref="P:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleKey.SampleDirection"/>.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleKey.ControllerName">
+            <summary>
+            Gets the name of the controller.
+            </summary>
+            <value>
+            The name of the controller.
+            </value>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleKey.ActionName">
+            <summary>
+            Gets the name of the action.
+            </summary>
+            <value>
+            The name of the action.
+            </value>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleKey.MediaType">
+            <summary>
+            Gets the media type.
+            </summary>
+            <value>
+            The media type.
+            </value>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleKey.ParameterNames">
+            <summary>
+            Gets the parameter names.
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleKey.ParameterType">
+            <summary>
+            Parameter Type
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleKey.SampleDirection">
+            <summary>
+            Gets the <see cref="P:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleKey.SampleDirection"/>.
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleKey.Equals(System.Object)">
+            <summary>
+            Overrides equals methods to checks equality between two objects
+            </summary>
+            <param name="obj">Object</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.HelpPageSampleKey.GetHashCode">
+            <summary>
+            Get Hash Code
+            </summary>
+            <returns>Hash Code</returns>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.ImageSample">
+            <summary>
+            This represents an image sample on the help page. There's a display template named ImageSample associated with this class.
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.ImageSample.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Nps.Gis.Web.Areas.HelpPage.ImageSample"/> class.
+            </summary>
+            <param name="src">The URL of an image.</param>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.ImageSample.Src">
+            <summary>
+            Source of image
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.ImageSample.Equals(System.Object)">
+            <summary>
+            Equals
+            </summary>
+            <param name="obj">Object</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.ImageSample.GetHashCode">
+            <summary>
+            Get Hash Code
+            </summary>
+            <returns>Hash Code</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.ImageSample.ToString">
+            <summary>
+            To String
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.InvalidSample">
+            <summary>
+            This represents an invalid sample on the help page. There's a display template named InvalidSample associated with this class.
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.InvalidSample.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="errorMessage">Error Message</param>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.InvalidSample.ErrorMessage">
+            <summary>
+            Error Message
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.InvalidSample.Equals(System.Object)">
+            <summary>
+            Overrides equals methods for checking equality of two objects
+            </summary>
+            <param name="obj">Object</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.InvalidSample.GetHashCode">
+            <summary>
+            Get Hash Code
+            </summary>
+            <returns>Hash Code</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.InvalidSample.ToString">
+            <summary>
+            To String
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.ObjectGenerator">
+            <summary>
+            This class will create an object of a given type and populate it with sample data.
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.ObjectGenerator.GenerateObject(System.Type)">
+            <summary>
+            Generates an object for a given type. The type needs to be public, have a public default constructor and settable public properties/fields. Currently it supports the following types:
+            Simple types: <see cref="T:System.Int32"/>, <see cref="T:System.String"/>, <see cref="T:System.Enum"/>, <see cref="T:System.DateTime"/>, <see cref="T:System.Uri"/>, etc.
+            Complex types: POCO types.
+            Nullables: <see cref="T:System.Nullable`1"/>.
+            Arrays: arrays of simple types or complex types.
+            Key value pairs: <see cref="T:System.Collections.Generic.KeyValuePair`2"/>
+            Tuples: <see cref="T:System.Tuple`1"/>, <see cref="T:System.Tuple`2"/>, etc
+            Dictionaries: <see cref="T:System.Collections.Generic.IDictionary`2"/> or anything deriving from <see cref="T:System.Collections.Generic.IDictionary`2"/>.
+            Collections: <see cref="T:System.Collections.Generic.IList`1"/>, <see cref="T:System.Collections.Generic.IEnumerable`1"/>, <see cref="T:System.Collections.Generic.ICollection`1"/>, <see cref="T:System.Collections.IList"/>, <see cref="T:System.Collections.IEnumerable"/>, <see cref="T:System.Collections.ICollection"/> or anything deriving from <see cref="T:System.Collections.Generic.ICollection`1"/> or <see cref="T:System.Collections.IList"/>.
+            Queryables: <see cref="T:System.Linq.IQueryable"/>, <see cref="T:System.Linq.IQueryable`1"/>.
+            </summary>
+            <param name="type">The type.</param>
+            <returns>An object of the given type.</returns>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.SampleDirection">
+            <summary>
+            Indicates whether the sample is used for request or response
+            </summary>
+        </member>
+        <member name="F:Nps.Gis.Web.Areas.HelpPage.SampleDirection.Request">
+            <summary>
+            Request
+            </summary>
+        </member>
+        <member name="F:Nps.Gis.Web.Areas.HelpPage.SampleDirection.Response">
+            <summary>
+            Response
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.TextSample">
+            <summary>
+            This represents a preformatted text sample on the help page. There's a display template named TextSample associated with this class.
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.TextSample.#ctor(System.String)">
+            <summary>
+            Text Sample
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Areas.HelpPage.TextSample.Text">
+            <summary>
+            Text
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.TextSample.Equals(System.Object)">
+            <summary>
+            Equals
+            </summary>
+            <param name="obj">Object</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.TextSample.GetHashCode">
+            <summary>
+            Get Hash Code
+            </summary>
+            <returns>Hash Code</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.TextSample.ToString">
+            <summary>
+            To String
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="T:Nps.Gis.Web.Areas.HelpPage.XmlDocumentationProvider">
+            <summary>
+            A custom <see cref="T:System.Web.Http.Description.IDocumentationProvider"/> that reads the API documentation from an XML documentation file.
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.XmlDocumentationProvider.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Nps.Gis.Web.Areas.HelpPage.XmlDocumentationProvider"/> class.
+            </summary>
+            <param name="documentPath">The physical path to XML document.</param>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpControllerDescriptor)">
+            <summary>
+            Get Documentation
+            </summary>
+            <param name="controllerDescriptor">Controller Descriptor</param>
+            <returns>Documentation</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpActionDescriptor)">
+            <summary>
+            Get Documentation
+            </summary>
+            <param name="actionDescriptor">Action Descriptor</param>
+            <returns>Documentation</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpParameterDescriptor)">
+            <summary>
+            Get Documentation
+            </summary>
+            <param name="parameterDescriptor">Parameter Descriptor</param>
+            <returns>Documentation</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.XmlDocumentationProvider.GetResponseDocumentation(System.Web.Http.Controllers.HttpActionDescriptor)">
+            <summary>
+            Get Response Documentation
+            </summary>
+            <param name="actionDescriptor">Action Descriptor</param>
+            <returns>Response Documentation</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Reflection.MemberInfo)">
+            <summary>
+            Get Documentation
+            </summary>
+            <param name="member">Member Info</param>
+            <returns>Documentation</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Type)">
+            <summary>
+            Get Documentation
+            </summary>
+            <param name="type">Type</param>
+            <returns>Documentation</returns>
+        </member>
+        <member name="T:Nps.Gis.Web.Controllers.HomeController">
+            <summary>
+            Home Controller
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Controllers.HomeController.Index">
+            <summary>
+            Index page
+            </summary>
+            <returns>View</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Controllers.HomeController.Test">
+            <summary>
+            test page
+            </summary>
+            <returns>View</returns>
+        </member>
+        <member name="T:Nps.Gis.Web.Controllers.ParksController">
+            <summary>
+            Web API controller for parks
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Controllers.ParksController.GetParks(System.String)">
+            <summary>
+            Gets list of top 20 parks containing query string
+            </summary>
+            <returns>List of parks</returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Controllers.ParksController.Dispose(System.Boolean)">
+            <summary>
+            Disposes the class
+            </summary>
+            <param name="disposing">Boolean</param>
+        </member>
+        <member name="T:Nps.Gis.Web.MvcApplication">
+            <summary>
+            MVC Application
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.MvcApplication.Application_Start">
+            <summary>
+            Actions for Application Start
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.CxmlHandler">
+            <summary>
+            Handle a request for any CXML file. See the associated entry in web.config
+            This handler finds all implementations of CollectionFactoryBase in any assembly in the bin folder.
+            To add your own collection using this method, add a class that implements CollectionFactoryBase
+             into the CollectionFactories assembly.
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.CxmlHandler.ProcessRequest(System.Web.HttpContext)">
+            <summary>
+            Process Request
+            </summary>
+            <param name="context">HttpContext</param>
+        </member>
+        <member name="P:Nps.Gis.Web.CxmlHandler.IsReusable">
+            <summary>
+            Is Reusable
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.DzcHandler">
+            <summary>
+            Dzc Handler
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.DzcHandler.ProcessRequest(System.Web.HttpContext)">
+            <summary>
+            Process Request
+            </summary>
+            <param name="context">HttpContext</param>
+        </member>
+        <member name="P:Nps.Gis.Web.DzcHandler.IsReusable">
+            <summary>
+            Is Reusable
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.ImageTileHandler">
+            <summary>
+            Image Tile Handler
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.ImageTileHandler.ProcessRequest(System.Web.HttpContext)">
+            <summary>
+            Process Request
+            </summary>
+            <param name="context">HttpContext</param>
+        </member>
+        <member name="P:Nps.Gis.Web.ImageTileHandler.IsReusable">
+            <summary>
+            Is Reusable
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.DziHandler">
+            <summary>
+            Dzi Handler
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.DziHandler.ProcessRequest(System.Web.HttpContext)">
+            <summary>
+            Process Request
+            </summary>
+            <param name="context">HttpContext</param>
+        </member>
+        <member name="P:Nps.Gis.Web.DziHandler.IsReusable">
+            <summary>
+            Is Reusable
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.DeepZoomImageHandler">
+            <summary>
+            Deep Zoom Image Handler
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.DeepZoomImageHandler.ProcessRequest(System.Web.HttpContext)">
+            <summary>
+            Process Request
+            </summary>
+            <param name="context">HttpContext</param>
+        </member>
+        <member name="P:Nps.Gis.Web.DeepZoomImageHandler.IsReusable">
+            <summary>
+            Is Reusable
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.Models.CollectionFactories.CrashCollection">
+            <summary>
+            Crash Collection
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Models.CollectionFactories.CrashCollection.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Models.CollectionFactories.CrashCollection.MakeCollection(Nps.Gis.PivotServerTools.CollectionRequestContext)">
+            <summary>
+            Make new Collection
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Nps.Gis.Web.Models.CollectionFactories.ErrorCollection">
+            <summary>
+            Error Collection
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Models.CollectionFactories.ErrorCollection.FromException(System.Exception)">
+            <summary>
+            Create a single item collection that displays the error message from an exception.
+            </summary>
+        </member>
+        <member name="T:Nps.Gis.Web.Models.CollectionFactories.SharedPicturesCollection">
+            <summary>
+            Create a collection from the Shared Pictures folder.
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Models.CollectionFactories.SharedPicturesCollection.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Nps.Gis.Web.Models.CollectionFactories.SharedPicturesCollection.MakeCollection(Nps.Gis.PivotServerTools.CollectionRequestContext)">
+            <summary>
+            Calls static methods for creating Pivot Viewer collection
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nps.Gis.Web.Models.CollectionFactories.SharedPicturesCollection.MakeCollection">
+            <summary>
+            Creates Collection for Pivot Viewer
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Nps.Gis.Web.Models.Park">
+            <summary>
+            Park Class
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Models.Park.Label">
+            <summary>
+            Label for park
+            </summary>
+        </member>
+        <member name="P:Nps.Gis.Web.Models.Park.Value">
+            <summary>
+            Value for park
+            </summary>
+        </member>
+    </members>
+</doc>
